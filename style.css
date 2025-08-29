@@ -1,0 +1,60 @@
+/* 全局 */
+body {
+  font-family: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;
+  color: #333;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* 一级标题 */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+/* 二级标题 */
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #222;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+}
+
+/* 列表 */
+ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+/* 链接 */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 代码 */
+code {
+  background: #f6f6f6;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.95rem;
+}
