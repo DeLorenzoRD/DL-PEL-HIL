@@ -14,7 +14,7 @@ function openTab(evt, tabName) {
   currentTab.style.display = "block";
   evt.currentTarget.className += " active";
 
-  if(tabName === 'PDF') loadPDF(currentTab); // 传入当前 Tab 容器
+  //if(tabName === 'PDF') loadPDF(currentTab); // 传入当前 Tab 容器
 }
 
 function scrollToTop() {
@@ -68,5 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // 调用 PDF 渲染
   loadPDF(defaultTabContainer);
 });
+
 
 
