@@ -58,3 +58,15 @@ document.addEventListener('contextmenu', e => e.preventDefault());
 document.addEventListener('keydown', e => {
   if (e.ctrlKey && ['s','p','u','S','P','U'].includes(e.key)) e.preventDefault();
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const defaultTab = document.querySelector(".tablinks.active");
+  const defaultTabContainer = document.getElementById('PDF');
+
+  // 显示默认 tab
+  defaultTabContainer.style.display = "block";
+
+  // 调用 PDF 渲染
+  loadPDF(defaultTabContainer);
+});
+
+
