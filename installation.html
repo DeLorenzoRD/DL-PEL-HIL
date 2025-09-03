@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Installation</title>
+  <link rel="stylesheet" href="style_install.css">
+</head>
+<body>
+  <!-- zone to input password -->
+  <div id="password-container" class="center-box">
+    <input type="password" id="password-input" placeholder="Enter the password">
+    <button id="submit-btn">Confirm</button>
+    <p id="error-message"></p>
+  </div>
+
+  <!-- hidden zone -->
+  <div id="content-container" class="hidden">
+    <h1>DL PEL-HIL Software Installation Guide</h1>
+    
+
+    <!-- YouTube video -->
+    <div class="video-container">
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/hatVmj0lX1k?si=n_vpQummo6VoW7FQ"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+
+    <!-- links -->
+    <p>Packages for installation</p>
+    <ul class="link-list">
+      <li>
+        <a href="https://login.mathworks.com/embedded-login/signin.html?cid=wdnl&uri=https%3A%2F%2Fwww.mathworks.com%2Fdownloads%2F" 
+          target="_blank">
+          MATLAB, Simulink, Toolboxes and Blocksets (MathWorks account required)
+        </a>
+      </li>
+
+      <li>
+        <a href="https://drive.google.com/file/d/1vdYmia9smtAwB_y1ps6FrjJrI7ixvlw_/view?usp=sharing" 
+          target="_blank">
+          DL PEL-HIL Blockset for Simulink
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.ti.com/tool/CONTROLSUITE#downloads" 
+          target="_blank">
+          3rd party software installation packages - CONTROLSUITE (TI account may be required)
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+  <script src="script_install.js"></script>
+</body>
+</html>
