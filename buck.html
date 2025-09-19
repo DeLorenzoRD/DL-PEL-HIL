@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buck</title> <!-- 改  -->
+  <link rel="stylesheet" href="style_video_pdf.css">
+</head>
+
+<body>
+  <header class="header-container">
+    <h1 class="header-title">DL PEL-HIL Getting Started</h1>
+    <h2 class="header-subtitle">Buck Demo</h2> <!-- 改  -->
+  </header>
+  
+  <main class="content">
+    <section id="description" style="border-bottom: none;">
+
+      <div class="tab">
+        <button class="tablinks active" onclick="openTab(event,'PDF')">PDF</button>
+      </div>
+
+      <!-- PDF Tab --> <!-- 改  -->
+      <div id="PDF" class="tabcontent" data-pdf="pdfs/DL PEL-HIL Getting Started - Buck v1.0.pdf">
+        <div id="viewer"></div>
+      </div>
+
+    </section>
+  </main>
+
+  <div id="buttons">
+    <button onclick="location.href='index.html'">← Back to Home</button>
+  </div>
+
+  <button id="topButton" onclick="scrollToTop()">↑ Top</button>
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 De Lorenzo DL PEL-HIL Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.15.349/pdf.min.js"></script>
+<script src="script_video_pdf.js"></script>
+
+</body>
+</html>
+
+
+
+
