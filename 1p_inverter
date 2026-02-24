@@ -9,7 +9,7 @@
 <body>
   <header class="header-container">
     <h1 class="header-title">DL PEL-HIL Getting Started</h1>
-    <h2 class="header-subtitle">Buck Demo</h2> <!-- 改  -->
+    <h2 class="header-subtitle">Single phase inverter Demo</h2> <!-- 改  -->
   </header>
   
   <main class="content">
